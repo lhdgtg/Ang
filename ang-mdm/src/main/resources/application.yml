@@ -1,0 +1,10 @@
+server:
+  context-path: /ang-mdm
+  port: 8001
+spring:
+  application:
+    name: mdm-service
+eureka:
+  client:
+    service-url:  http://localhost:8000/ang-eureka/eureka/
+      
