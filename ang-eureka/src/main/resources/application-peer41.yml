@@ -1,0 +1,9 @@
+server:
+  context-path: /ang-eureka
+  port: 8041
+eureka:
+  instance:
+    hostname: Server41
+  client:
+    service-url:
+      defaultZone: http://Server42:8042/${server.context-path}/eureka/,http://Server43:8043/${server.context-path}/eureka/
