@@ -1,3 +1,7 @@
+spring:
+  profiles:
+    active: peer41
+    
 server:
   context-path: /ang-eureka
   port: 8000
