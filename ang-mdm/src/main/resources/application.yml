@@ -1,10 +1,10 @@
 server:
   context-path: /ang-mdm
-  port: 8001
+  port: 8002
 spring:
   application:
     name: mdm-service
 eureka:
   client:
     service-url:
-      defaultZone: http://Server41:8041/ang-eureka/eureka/
+      defaultZone: http://localhost:8001/ang-eureka/eureka/

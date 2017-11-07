@@ -1,0 +1,10 @@
+server:
+  context-path: /ang-mdm
+  port: 8101
+spring:
+  application:
+    name: mdm-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://Server41:8041/ang-eureka/eureka/,http://Server42:8042/ang-eureka/eureka/,http://Server43:8043/ang-eureka/eureka/
